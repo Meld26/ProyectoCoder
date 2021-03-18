@@ -388,6 +388,7 @@ footer {
     margin-right: 60px;
 }
 .servicios h1{
+    letter-spacing: 6px;
     color: #9325a8;
     display: inline-block;
     text-transform: uppercase;
