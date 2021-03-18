@@ -375,17 +375,65 @@ footer {
 /*FIN NOSOTROS*/
 
 /*INICIO SERVICIOS*/
-.h1Servicios {
-    color: #252529; 
-    font-size: 45px; font-style: normal; font-weight: bold; font-family: Arial, Helvetica, sans-serif;
-    margin-top: 30px; margin-bottom: 20px;
-    text-align: center;
+.mainServicios{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: 'Roboto';
+    background: #f4f4f4;
 }
-.tabla{color: #252529; font-size: 20px; font-family: roboto; font-style: normal; margin: 20px;}
-.nombreServicio{font-size: 25px; color: #FF89BE; font-weight: bold; text-decoration: underline;}
-.precio{font-size: 25px; color: #FF89BE; font-weight: bold; text-decoration: underline;}
-.incluye{font-size: 25px;color: #FF89BE; font-weight: bold; text-decoration: underline;}
-.protocolo{font-size: 25px;color: #FF89BE; font-weight: bold; text-decoration: underline;}
+.servicios{
+    background: white;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.servicios h1{
+    color: #9325a8;
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 1.5px solid black; /*sirve para subrayar*/
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+.cen{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+.servicioMini{
+    display: inline-block;
+    width: calc(100% / 3);
+    margin: 0 -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.servicioMini:hover{
+    background: #ad42c2;
+}
+.servicioMini i{
+    color: #9325a8;
+    font-size: 34px;
+    margin-bottom: 30px;
+}
+.servicioMini h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.servicioMini p{
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+}
+@media screen and (max-width: 500px){
+    .servicioMini{
+        width: 100%;
+    }
+}
 /*FIN SERVICIOS*/
 
 /*INICIO EXPERIENCIAS*/
